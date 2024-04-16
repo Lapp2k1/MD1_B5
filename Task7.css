@@ -1,20 +1,24 @@
-*{ 
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-   }
-  
-.text1{
-    background-color: gray;
-    padding: 20px;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
 }
-.text1:hover{background-color: black;
-    margin: 0;
-
+body {
+  text-align: center;
 }
-.text{font-size: 30px;
-    
-    color: white;
-    text-align: center;
+.text1 {
+  background-color: gray;
+  padding: 20px;
+  width: 25%;
+  height: 40%;
+}
+.text1:hover {
+  background-color: black;
+  margin: 0;
+}
+.text {
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
