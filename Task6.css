@@ -1,0 +1,23 @@
+/* Định nghĩa cho hình chữ nhật lớn */
+.outer-rectangle {
+  display: flex;
+  width: 200px; /* Chiều rộng của hình chữ nhật lớn */
+  height: 100px; /* Chiều cao của hình chữ nhật lớn */
+  margin: 10px; /* Khoảng cách xung quanh hình chữ nhật lớn */
+  background:linear-gradient(135deg, red, yellow); /* Màu nền của hình chữ nhật lớn */
+  position: relative; /* Đặt vị trí tương đối để định vị hình chữ nhật nhỏ hơn */
+  
+}
+
+/* Định nghĩa cho hình chữ nhật nhỏ hơn */
+.inner-rectangle {
+  display: flex;
+  width: 180px; /* Chiều rộng của hình chữ nhật nhỏ hơn */
+  height: 80px; /* Chiều cao của hình chữ nhật nhỏ hơn */
+  margin: auto; /* Khoảng cách từ mép của hình chữ nhật lớn */
+  background-color: rgb(255, 255, 255); /* Màu nền của hình chữ nhật nhỏ hơn */
+  position: absolute; /* Đặt vị trí tuyệt đối để định vị chính xác bên trong hình chữ nhật lớn */
+  top: 10px; /* Cách mép trên 10px */
+  left: 10px; /* Cách mép trái 10px */
+ 
+}

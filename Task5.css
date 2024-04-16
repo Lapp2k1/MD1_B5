@@ -1,0 +1,49 @@
+/* Định nghĩa cơ bản cho navbar và menu */
+.navbar {
+    width: 30px; /* Chiều rộng mặc định khi không hover */
+    height: 300px; /* Chiều cao cố định */
+    background-color: blue; /* Màu nền của navbar */
+    transition: width 0.5s; /* Hiệu ứng chuyển động cho chiều rộng */
+    position: relative; /* Để menu có thể được định vị tuyệt đối so với navbar */
+    margin-top: 60px;
+  }
+  
+  /* Hiệu ứng hover cho navbar */
+  .navbar:hover {
+    width: 300px; /* Chiều rộng khi hover */
+  }
+  
+  /* Định nghĩa cho menu và các thành phần bên trong */
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue; /* Màu nền xanh cho menu */
+    display: flex;
+    flex-direction: column; /* Sắp xếp các thành phần theo chiều dọc */
+    align-items: center; /* Căn giữa các thành phần theo chiều ngang */
+    justify-content: center; /* Căn giữa các thành phần theo chiều dọc */
+    opacity: 0; /* Ẩn menu khi không hover */
+    transition: opacity 0.5s; /* Hiệu ứng chuyển động cho độ mờ */
+  }
+  
+  /* Hiệu ứng hover cho menu */
+  .navbar:hover .menu {
+    opacity: 1; /* Hiển thị menu khi hover */
+  }
+  
+  /* Định nghĩa cho các liên kết bên trong menu */
+  .menu a {
+    color: white; /* Màu chữ trắng */
+    text-decoration: none; /* Bỏ gạch chân của liên kết */
+    padding: 10px; /* Khoảng cách xung quanh nội dung */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển động cho màu nền */
+  }
+  
+  /* Hiệu ứng hover cho các liên kết */
+  .menu a:hover {
+    background-color: #555; /* Màu nền khi hover lên liên kết */
+  }
+  
