@@ -3,7 +3,7 @@
     width: 30px; /* Chiều rộng mặc định khi không hover */
     height: 300px; /* Chiều cao cố định */
     background-color: blue; /* Màu nền của navbar */
-    transition: width 0.5s; /* Hiệu ứng chuyển động cho chiều rộng */
+    transition: 0.5s; /* Hiệu ứng chuyển động cho chiều rộng */
     position: relative; /* Để menu có thể được định vị tuyệt đối so với navbar */
     margin-top: 60px;
   }
@@ -26,7 +26,7 @@
     align-items: center; /* Căn giữa các thành phần theo chiều ngang */
     justify-content: space-evenly; /* Căn giữa các thành phần theo chiều dọc */
     opacity: 0; /* Ẩn menu khi không hover */
-    transition: opacity 0.5s; /* Hiệu ứng chuyển động cho độ mờ */
+    transition:  0.5s; /* Hiệu ứng chuyển động cho độ mờ */
   }
   
   /* Hiệu ứng hover cho menu */
@@ -39,7 +39,7 @@
     color: white; /* Màu chữ trắng */
     text-decoration: none; /* Bỏ gạch chân của liên kết */
     padding: 10px; /* Khoảng cách xung quanh nội dung */
-    transition: background-color 0.3s; /* Hiệu ứng chuyển động cho màu nền */
+    transition:  0.3s; /* Hiệu ứng chuyển động cho màu nền */
   }
   
   /* Hiệu ứng hover cho các liên kết */
